@@ -369,7 +369,6 @@
 		2A78BFAE1D1B138D00A583D2 /* EditPaneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A78BFAC1D1B138D00A583D2 /* EditPaneController.swift */; };
 		2A78BFB01D1B168E00A583D2 /* WebDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A78BFAF1D1B168E00A583D2 /* WebDocumentViewController.swift */; };
 		2A78BFB11D1B168E00A583D2 /* WebDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A78BFAF1D1B168E00A583D2 /* WebDocumentViewController.swift */; };
-		2A78BFB31D1B240900A583D2 /* UpdaterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A78BFB21D1B240900A583D2 /* UpdaterManager.swift */; };
 		2A78BFBC1D1B376000A583D2 /* ServicesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A78BFBB1D1B376000A583D2 /* ServicesProvider.swift */; };
 		2A78BFBD1D1B376000A583D2 /* ServicesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A78BFBB1D1B376000A583D2 /* ServicesProvider.swift */; };
 		2A7CF1591C4F569B0015FF2F /* FindPreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A7CF1571C4F569B0015FF2F /* FindPreferencesView.xib */; };
@@ -419,9 +418,6 @@
 		2A91C31F1D1C3963007CF8BE /* PrintPaneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A91C31D1D1C3963007CF8BE /* PrintPaneController.swift */; };
 		2A91C3211D1C40E4007CF8BE /* FileDropPaneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A91C3201D1C40E4007CF8BE /* FileDropPaneController.swift */; };
 		2A91C3221D1C40E4007CF8BE /* FileDropPaneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A91C3201D1C40E4007CF8BE /* FileDropPaneController.swift */; };
-		2A9246FE1FCD2D07008DBC30 /* org.sparkle-project.InstallerConnection.xpc in Embed XPC Services */ = {isa = PBXBuildFile; fileRef = 2A9246FD1FCD2CF0008DBC30 /* org.sparkle-project.InstallerConnection.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		2A9246FF1FCD2D07008DBC30 /* org.sparkle-project.InstallerLauncher.xpc in Embed XPC Services */ = {isa = PBXBuildFile; fileRef = 2A9246FB1FCD2CF0008DBC30 /* org.sparkle-project.InstallerLauncher.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		2A9247001FCD2D07008DBC30 /* org.sparkle-project.InstallerStatus.xpc in Embed XPC Services */ = {isa = PBXBuildFile; fileRef = 2A9246FA1FCD2CF0008DBC30 /* org.sparkle-project.InstallerStatus.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2A94FC791BE225A200B454A8 /* cot in Copy Command-Line Tools */ = {isa = PBXBuildFile; fileRef = 2A94FC781BE2256F00B454A8 /* cot */; };
 		2A94FC7B1BE225F000B454A8 /* cot in Copy Command-Line Tools */ = {isa = PBXBuildFile; fileRef = 2A94FC781BE2256F00B454A8 /* cot */; };
 		2A97849F2034561B00482647 /* WebDocumentWindow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A97849D2034561B00482647 /* WebDocumentWindow.storyboard */; };
@@ -545,17 +541,14 @@
 		2ACC65321C98033D000574DC /* ThemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACC65311C98033D000574DC /* ThemeTests.swift */; };
 		2ACD68171D6B0E1200496B47 /* ColorCode.framework.dSYM in Copy dSYM Files */ = {isa = PBXBuildFile; fileRef = 2ACD68161D6B0E1200496B47 /* ColorCode.framework.dSYM */; };
 		2ACD681C1D6B0E3F00496B47 /* YAML.framework.dSYM in Copy dSYM Files */ = {isa = PBXBuildFile; fileRef = 2ACD681B1D6B0E3F00496B47 /* YAML.framework.dSYM */; };
-		2ACD681E1D6B0E4500496B47 /* Sparkle.framework.dSYM in Copy dSYM Files */ = {isa = PBXBuildFile; fileRef = 2ACD681D1D6B0E4500496B47 /* Sparkle.framework.dSYM */; };
 		2ACD68201D6B0F0100496B47 /* ColorCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4810391D4D1ADF00F7D34C /* ColorCode.framework */; };
 		2ACD68231D6B0F0400496B47 /* YAML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7A1D3E1D4BCCEF001B74B8 /* YAML.framework */; };
-		2ACD68251D6B0F0700496B47 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A594C9E1D4BAF100076FEDC /* Sparkle.framework */; };
 		2ACD68271D6B0F7300496B47 /* ColorCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4810391D4D1ADF00F7D34C /* ColorCode.framework */; };
 		2ACD68281D6B0F7300496B47 /* ColorCode.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4810391D4D1ADF00F7D34C /* ColorCode.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2ACD682A1D6B0F7500496B47 /* YAML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7A1D3E1D4BCCEF001B74B8 /* YAML.framework */; };
 		2ACD682B1D6B0F7500496B47 /* YAML.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7A1D3E1D4BCCEF001B74B8 /* YAML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2ACD682D1D6B0F9400496B47 /* ColorCode.framework.dSYM in Copy dSYM Files */ = {isa = PBXBuildFile; fileRef = 2ACD68161D6B0E1200496B47 /* ColorCode.framework.dSYM */; };
 		2ACD682E1D6B0F9600496B47 /* YAML.framework.dSYM in Copy dSYM Files */ = {isa = PBXBuildFile; fileRef = 2ACD681B1D6B0E3F00496B47 /* YAML.framework.dSYM */; };
-		2ACD68301D6B113500496B47 /* Sparkle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2A594C9E1D4BAF100076FEDC /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2ACD68311D6B113E00496B47 /* YAML.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7A1D3E1D4BCCEF001B74B8 /* YAML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2ACD68321D6B114400496B47 /* ColorCode.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4810391D4D1ADF00F7D34C /* ColorCode.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2ACDC08E1D1725F7009B72D6 /* FlippedClipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACDC08D1D1725F7009B72D6 /* FlippedClipView.swift */; };
@@ -703,19 +696,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		2A9246F51FCD21E6008DBC30 /* Embed XPC Services */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/XPCServices";
-			dstSubfolderSpec = 16;
-			files = (
-				2A9246FE1FCD2D07008DBC30 /* org.sparkle-project.InstallerConnection.xpc in Embed XPC Services */,
-				2A9246FF1FCD2D07008DBC30 /* org.sparkle-project.InstallerLauncher.xpc in Embed XPC Services */,
-				2A9247001FCD2D07008DBC30 /* org.sparkle-project.InstallerStatus.xpc in Embed XPC Services */,
-			);
-			name = "Embed XPC Services";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2A94FC771BE2253500B454A8 /* Copy Command-Line Tools */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -747,7 +727,6 @@
 				2ACD68171D6B0E1200496B47 /* ColorCode.framework.dSYM in Copy dSYM Files */,
 				2AAC7495203FA37500D91832 /* Differ.framework.dSYM in Copy dSYM Files */,
 				2ACD681C1D6B0E3F00496B47 /* YAML.framework.dSYM in Copy dSYM Files */,
-				2ACD681E1D6B0E4500496B47 /* Sparkle.framework.dSYM in Copy dSYM Files */,
 			);
 			name = "Copy dSYM Files";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -761,7 +740,6 @@
 				2ACD68321D6B114400496B47 /* ColorCode.framework in Embed Frameworks */,
 				2AAC7491203FA2D200D91832 /* Differ.framework in Embed Frameworks */,
 				2ACD68311D6B113E00496B47 /* YAML.framework in Embed Frameworks */,
-				2ACD68301D6B113500496B47 /* Sparkle.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -980,7 +958,6 @@
 		2A4E637F20ADC45F0033CE63 /* NSBezierPath+RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSBezierPath+RoundedCorner.swift"; sourceTree = "<group>"; };
 		2A50AA61204D513500D10A10 /* DocumentFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentFile.swift; sourceTree = "<group>"; };
 		2A54BE2B1D40EB24000816B0 /* LineEndingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineEndingTests.swift; sourceTree = "<group>"; };
-		2A594C9E1D4BAF100076FEDC /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = ../Carthage/Build/Mac/Sparkle.framework; sourceTree = "<group>"; };
 		2A5ADE831D2168FC00F6CE26 /* Collection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
 		2A5ADE871D216D4900F6CE26 /* NSColor+NamedColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSColor+NamedColors.swift"; sourceTree = "<group>"; };
 		2A5D13091D1ED10400D38E6A /* Console.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Console.swift; sourceTree = "<group>"; };
@@ -1070,7 +1047,6 @@
 		2A78BFA91D1B0E8B00A583D2 /* PreferencesWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesWindowController.swift; sourceTree = "<group>"; };
 		2A78BFAC1D1B138D00A583D2 /* EditPaneController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditPaneController.swift; sourceTree = "<group>"; };
 		2A78BFAF1D1B168E00A583D2 /* WebDocumentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebDocumentViewController.swift; sourceTree = "<group>"; };
-		2A78BFB21D1B240900A583D2 /* UpdaterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdaterManager.swift; sourceTree = "<group>"; };
 		2A78BFBB1D1B376000A583D2 /* ServicesProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesProvider.swift; sourceTree = "<group>"; };
 		2A7A1D3E1D4BCCEF001B74B8 /* YAML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YAML.framework; path = ../Carthage/Build/Mac/YAML.framework; sourceTree = "<group>"; };
 		2A7CF1581C4F569B0015FF2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/FindPreferencesView.xib; sourceTree = "<group>"; };
@@ -1112,9 +1088,6 @@
 		2A91C31A1D1BFE47007CF8BE /* AppInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
 		2A91C31D1D1C3963007CF8BE /* PrintPaneController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintPaneController.swift; sourceTree = "<group>"; };
 		2A91C3201D1C40E4007CF8BE /* FileDropPaneController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileDropPaneController.swift; sourceTree = "<group>"; };
-		2A9246FA1FCD2CF0008DBC30 /* org.sparkle-project.InstallerStatus.xpc */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.xpc-service"; path = "org.sparkle-project.InstallerStatus.xpc"; sourceTree = "<group>"; };
-		2A9246FB1FCD2CF0008DBC30 /* org.sparkle-project.InstallerLauncher.xpc */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.xpc-service"; path = "org.sparkle-project.InstallerLauncher.xpc"; sourceTree = "<group>"; };
-		2A9246FD1FCD2CF0008DBC30 /* org.sparkle-project.InstallerConnection.xpc */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.xpc-service"; path = "org.sparkle-project.InstallerConnection.xpc"; sourceTree = "<group>"; };
 		2A94FC781BE2256F00B454A8 /* cot */ = {isa = PBXFileReference; explicitFileType = text.script.python; name = cot; path = ../cot/cot; sourceTree = SOURCE_ROOT; };
 		2A97849E2034561B00482647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/WebDocumentWindow.storyboard; sourceTree = "<group>"; };
 		2A9BF3C31D382BB100E3D3E2 /* EditorTextView+Transformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EditorTextView+Transformation.swift"; sourceTree = "<group>"; };
@@ -1377,7 +1350,7 @@
 		6C1E212412C9E65600194313 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		6C6DAE3D13833C0E007F2326 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
 		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D15AC370486D014006FF6A4 /* CotEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CotEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D15AC370486D014006FF6A4 /* Metal CotEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Metal CotEditor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1398,7 +1371,6 @@
 				2ACD68201D6B0F0100496B47 /* ColorCode.framework in Frameworks */,
 				2AAC7490203FA2D200D91832 /* Differ.framework in Frameworks */,
 				2ACD68231D6B0F0400496B47 /* YAML.framework in Frameworks */,
-				2ACD68251D6B0F0700496B47 /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1408,7 +1380,7 @@
 		19C28FB0FE9D524F11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D15AC370486D014006FF6A4 /* CotEditor.app */,
+				8D15AC370486D014006FF6A4 /* Metal CotEditor.app */,
 				2A6F0E071B5500E100C2D03C /* CotEditor.app */,
 				2AC71DDF1BF0BDBC002E1434 /* Tests.xctest */,
 				2A3F18F7203270BE002F1CA7 /* UI Tests.xctest */,
@@ -1584,7 +1556,6 @@
 				2A91C31A1D1BFE47007CF8BE /* AppInfo.swift */,
 				2A8961911DB76A3400E9E0EC /* MainMenu.swift */,
 				2A78BFBB1D1B376000A583D2 /* ServicesProvider.swift */,
-				2A78BFB21D1B240900A583D2 /* UpdaterManager.swift */,
 				2A78BFAF1D1B168E00A583D2 /* WebDocumentViewController.swift */,
 				2AEE84B11E8158D700BA7982 /* WriteToConsoleCommand.swift */,
 				2AFB5AEA1D597AFC003895A7 /* Defaults */,
@@ -2027,17 +1998,6 @@
 			name = "Other View Controllers";
 			sourceTree = "<group>";
 		};
-		2A9246F01FCD20EF008DBC30 /* XPC */ = {
-			isa = PBXGroup;
-			children = (
-				2A9246FD1FCD2CF0008DBC30 /* org.sparkle-project.InstallerConnection.xpc */,
-				2A9246FB1FCD2CF0008DBC30 /* org.sparkle-project.InstallerLauncher.xpc */,
-				2A9246FA1FCD2CF0008DBC30 /* org.sparkle-project.InstallerStatus.xpc */,
-			);
-			name = XPC;
-			path = ../Carthage/Build/Mac;
-			sourceTree = "<group>";
-		};
 		2AA14CFA1FA47E9000EAF586 /* Script */ = {
 			isa = PBXGroup;
 			children = (
@@ -2247,8 +2207,6 @@
 				2A4810391D4D1ADF00F7D34C /* ColorCode.framework */,
 				2AAC748F203FA2D100D91832 /* Differ.framework */,
 				2A7A1D3E1D4BCCEF001B74B8 /* YAML.framework */,
-				2A594C9E1D4BAF100076FEDC /* Sparkle.framework */,
-				2A9246F01FCD20EF008DBC30 /* XPC */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2313,9 +2271,9 @@
 			productReference = 2AC71DDF1BF0BDBC002E1434 /* Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8D15AC270486D014006FF6A4 /* CotEditor */ = {
+		8D15AC270486D014006FF6A4 /* Metal CotEditor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8C71D95308640EDF00C9C0BD /* Build configuration list for PBXNativeTarget "CotEditor" */;
+			buildConfigurationList = 8C71D95308640EDF00C9C0BD /* Build configuration list for PBXNativeTarget "Metal CotEditor" */;
 			buildPhases = (
 				2ACC21B81E5445BA0078241F /* Lint Swift Code */,
 				2A5DBE5E1B5D2E1300F8CB13 /* Build Syntax Map */,
@@ -2324,18 +2282,16 @@
 				8D15AC300486D014006FF6A4 /* Sources */,
 				8D15AC330486D014006FF6A4 /* Frameworks */,
 				2ACD68221D6B0F0100496B47 /* Embed Frameworks */,
-				2A9246F51FCD21E6008DBC30 /* Embed XPC Services */,
-				2A9247051FCD471B008DBC30 /* Codesign Sparkle */,
 				2ACD68151D6B0DCF00496B47 /* Copy dSYM Files */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CotEditor;
+			name = "Metal CotEditor";
 			productInstallPath = "$(HOME)/Applications";
 			productName = CotEditor;
-			productReference = 8D15AC370486D014006FF6A4 /* CotEditor.app */;
+			productReference = 8D15AC370486D014006FF6A4 /* Metal CotEditor.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -2388,13 +2344,13 @@
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.HardenedRuntime = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.Sandbox = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.iCloud = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -2417,7 +2373,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D15AC270486D014006FF6A4 /* CotEditor */,
+				8D15AC270486D014006FF6A4 /* Metal CotEditor */,
 				2A6F0D4E1B5500E100C2D03C /* CotEditor -AppStore */,
 				2AC71DDE1BF0BDBC002E1434 /* Tests */,
 				2A3F18F6203270BE002F1CA7 /* UI Tests */,
@@ -2607,7 +2563,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "ruby makeSyntaxMap.rb";
+			shellScript = "ruby makeSyntaxMap.rb\n";
 		};
 		2A5DBE5F1B5D30A500F8CB13 /* Build Syntax Map */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2637,20 +2593,6 @@
 			shellPath = /bin/sh;
 			shellScript = "cd ../Carthage\n\n// build XPCs\nschemes=(\n    'SparkleInstallerLauncher'\n    'SparkleInstallerConnection'\n    'SparkleInstallerStatus'\n)\nfor scheme in ${schemes[@]}; do\n    xcodebuild build -project Checkouts/Sparkle/Sparkle.xcodeproj -scheme $scheme -derivedDataPath DerivedData -configuration Release\ndone\n\n# copy results to Carthage/Build directory\n#    -> So that, we can usually skip build process.\nfor file in './DerivedData/Build/Products/Release/*.xpc'; do\n    cp -r ${file} Build/Mac/\ndone\n";
 		};
-		2A9247051FCD471B008DBC30 /* Codesign Sparkle */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Codesign Sparkle";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# check if codesigned\nif [ -z \"$CODE_SIGN_IDENTITY\" ] ; then\n    if [ \"$CONFIGURATION\" = \"Release\" ] ; then\n    echo \"CODE_SIGN_IDENTITY needs to be non-empty for codesigning XPCs!\"\n        exit 1\n    else\n        exit 0  # Codesigning is optional for non-release builds.\n    fi\nfi\n\npaths=(\n    \"$XPCSERVICES_FOLDER_PATH/org.sparkle-project.InstallerLauncher.xpc\"\n    \"$XPCSERVICES_FOLDER_PATH/org.sparkle-project.InstallerConnection.xpc\"\n    \"$XPCSERVICES_FOLDER_PATH/org.sparkle-project.InstallerStatus.xpc\"\n    \"$FRAMEWORKS_FOLDER_PATH/Sparkle.framework/Versions/A/Resources/AutoUpdate\"\n    \"$FRAMEWORKS_FOLDER_PATH/Sparkle.framework/Versions/A/Resources/Updater.app\"\n)\nfor path in ${paths[@]}; do\n    codesign --verbose --force --deep -o runtime --sign \"$EXPANDED_CODE_SIGN_IDENTITY_NAME\" \"$TARGET_BUILD_DIR/$path\"\ndone\n";
-		};
 		2ACC21B81E5445BA0078241F /* Lint Swift Code */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2663,7 +2605,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cd ../\nif which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"SwiftLint does not exist, download from https://github.com/realm/SwiftLint\"\nfi";
+			shellScript = "cd ../\nif which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"SwiftLint does not exist, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
 		2ACC21B91E546CCF0078241F /* Lint Swift Code */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -3005,7 +2947,6 @@
 				2A5D13101D1EE66500D38E6A /* ProgressViewController.swift in Sources */,
 				2A2747732111909400795954 /* Collection+Diff.swift in Sources */,
 				2AA14CF81FA47E8900EAF586 /* ScriptDescriptor.swift in Sources */,
-				2A78BFB31D1B240900A583D2 /* UpdaterManager.swift in Sources */,
 				2AD69B881D3E4FCD00FBD998 /* Editable.swift in Sources */,
 				2A71BC7B1DDC50530085AE1C /* DocumentViewController+TouchBar.swift in Sources */,
 				2AEC48331E641E4F00FB0F89 /* Snippet.swift in Sources */,
@@ -3217,12 +3158,12 @@
 /* Begin PBXTargetDependency section */
 		2A3F18FD203270BE002F1CA7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8D15AC270486D014006FF6A4 /* CotEditor */;
+			target = 8D15AC270486D014006FF6A4 /* Metal CotEditor */;
 			targetProxy = 2A3F18FC203270BE002F1CA7 /* PBXContainerItemProxy */;
 		};
 		2AB0E3E11D8974D00027FF46 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8D15AC270486D014006FF6A4 /* CotEditor */;
+			target = 8D15AC270486D014006FF6A4 /* Metal CotEditor */;
 			targetProxy = 2AB0E3E01D8974D00027FF46 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -4012,11 +3953,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = CotEditor.entitlements;
-				DEVELOPMENT_TEAM = HT3Z3A72WZ;
-				ENABLE_HARDENED_RUNTIME = YES;
+				DEVELOPMENT_TEAM = 4VS8SA23V9;
 				INFOPLIST_FILE = Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.coteditor.CotEditor;
-				PRODUCT_NAME = CotEditor;
+				PRODUCT_BUNDLE_IDENTIFIER = com.interfacelab.CotEditor;
+				PRODUCT_NAME = "Metal CotEditor";
 			};
 			name = Debug;
 		};
@@ -4025,11 +3965,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = CotEditor.entitlements;
-				DEVELOPMENT_TEAM = HT3Z3A72WZ;
-				ENABLE_HARDENED_RUNTIME = YES;
+				DEVELOPMENT_TEAM = 4VS8SA23V9;
 				INFOPLIST_FILE = Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.coteditor.CotEditor;
-				PRODUCT_NAME = CotEditor;
+				PRODUCT_BUNDLE_IDENTIFIER = com.interfacelab.CotEditor;
+				PRODUCT_NAME = "Metal CotEditor";
 			};
 			name = Release;
 		};
@@ -4217,7 +4156,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8C71D95308640EDF00C9C0BD /* Build configuration list for PBXNativeTarget "CotEditor" */ = {
+		8C71D95308640EDF00C9C0BD /* Build configuration list for PBXNativeTarget "Metal CotEditor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C71D95408640EDF00C9C0BD /* Debug */,

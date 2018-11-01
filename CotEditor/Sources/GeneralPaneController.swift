@@ -48,11 +48,10 @@ final class GeneralPaneController: NSViewController {
         self.selectionInstanceHighlightDelayField?.bindNullPlaceholderToUserDefaults(.value)
         
         // remove updater options if no Sparkle provided
-        #if APPSTORE
-            for subview in self.view.subviews where subview.tag < 0 {
-                subview.removeFromSuperview()
-            }
-        #endif
+        for subview in self.view.subviews where subview.tag < 0 {
+            subview.removeFromSuperview()
+        }
+
         if !Bundle.main.isPrerelease {
             for subview in self.view.subviews where subview.tag == -2 {
                 subview.removeFromSuperview()

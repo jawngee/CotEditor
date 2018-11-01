@@ -77,9 +77,9 @@ extension Date {
     func moof(_ label: String? = nil) {
         
         if let label = label {
-            CotEditor.moof(-self.timeIntervalSinceNow, label)
+            Metal_CotEditor.moof(-self.timeIntervalSinceNow, label)
         } else {
-            CotEditor.moof(-self.timeIntervalSinceNow)
+            Metal_CotEditor.moof(-self.timeIntervalSinceNow)
         }
     }
     

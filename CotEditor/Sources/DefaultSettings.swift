@@ -63,7 +63,7 @@ struct DefaultSettings {
         .overscrollRate: 0,
         .windowAlpha: 1.0,
         
-        .fontName: (NSFont.userFont(ofSize: 0) ?? NSFont.systemFont(ofSize: 0)).fontName,
+        .fontName: "Andale Mono",
         .fontSize: NSFont.systemFontSize,
         .shouldAntialias: true,
         .lineHeight: 1.2,

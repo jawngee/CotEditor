@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8D15AC270486D014006FF6A4"
-               BuildableName = "CotEditor.app"
-               BlueprintName = "CotEditor"
+               BuildableName = "MetalCotEditor.app"
+               BlueprintName = "Metal CotEditor"
                ReferencedContainer = "container:CotEditor.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -59,8 +59,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D15AC270486D014006FF6A4"
-            BuildableName = "CotEditor.app"
-            BlueprintName = "CotEditor"
+            BuildableName = "MetalCotEditor.app"
+            BlueprintName = "Metal CotEditor"
             ReferencedContainer = "container:CotEditor.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,8 +82,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D15AC270486D014006FF6A4"
-            BuildableName = "CotEditor.app"
-            BlueprintName = "CotEditor"
+            BuildableName = "MetalCotEditor.app"
+            BlueprintName = "Metal CotEditor"
             ReferencedContainer = "container:CotEditor.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -101,8 +101,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D15AC270486D014006FF6A4"
-            BuildableName = "CotEditor.app"
-            BlueprintName = "CotEditor"
+            BuildableName = "MetalCotEditor.app"
+            BlueprintName = "Metal CotEditor"
             ReferencedContainer = "container:CotEditor.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

@@ -135,8 +135,6 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     #if !APPSTORE
     /// setup Sparkle framework
     func applicationWillFinishLaunching(_ notification: Notification) {
-    
-        UpdaterManager.shared.setup()
     }
     #endif
     
